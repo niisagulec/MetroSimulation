@@ -31,10 +31,11 @@ A* algoritması, Dijkstra'dan farklı olarak her düğümün maliyetine göre ö
 A* algoritması, A* için uygun olan **heuristic** fonksiyonu kullanılarak daha hızlı bir şekilde hedefe ulaşılmasını sağlar. Bu da performans açısından avantajlıdır, çünkü gereksiz düğümleri ve yolları kontrol etmeden doğrudan hedefe yakın olan yolları keşfeder.
 
 ## Test Senaryoları
+![Test Senaryoları]((https://github.com/niisagulec/MetroSimulation/blob/main/metrosimulation.png))
 
 
 ## Geliştirme Fikirleri
--Gerçek Zamanlı Veri Entegrasyonu: Metro ağlarındaki güzergahlar ve istasyonlar, gerçek zamanlı trafik ve bakım durumu verilerine dayalı olarak dinamik bir şekilde güncellenebilir. 
--Gelişmiş Yol Seçenekleri: Kullanıcıların yolculuk tercihlerine göre filtreleme seçenekleri eklenebilir.
--Kullanıcı Profilleri ve Kişiselleştirme: Kullanıcılar, daha önce kullandıkları rotaları kaydedebilir ve favori istasyonlarını belirleyebilirler.
--Kullanıcı Dostu Arayüz (GUI): Grafiksel harita ile kullanıcıların metro ağı üzerinde görsel olarak gezinmesini sağlamak için interaktif bir harita arayüzü oluşturulabilir. İstasyonlar ve hatlar harita üzerinde gösterilebilir.
+1. Gerçek Zamanlı Veri Entegrasyonu: Metro ağlarındaki güzergahlar ve istasyonlar, gerçek zamanlı trafik ve bakım durumu verilerine dayalı olarak dinamik bir şekilde güncellenebilir. 
+2. Gelişmiş Yol Seçenekleri: Kullanıcıların yolculuk tercihlerine göre filtreleme seçenekleri eklenebilir.
+3. Kullanıcı Profilleri ve Kişiselleştirme: Kullanıcılar, daha önce kullandıkları rotaları kaydedebilir ve favori istasyonlarını belirleyebilirler.
+4. Kullanıcı Dostu Arayüz (GUI): Grafiksel harita ile kullanıcıların metro ağı üzerinde görsel olarak gezinmesini sağlamak için interaktif bir harita arayüzü oluşturulabilir. İstasyonlar ve hatlar harita üzerinde gösterilebilir.
