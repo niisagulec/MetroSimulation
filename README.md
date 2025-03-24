@@ -31,7 +31,7 @@ A* algoritması, Dijkstra'dan farklı olarak her düğümün maliyetine göre ö
 A* algoritması, A* için uygun olan **heuristic** fonksiyonu kullanılarak daha hızlı bir şekilde hedefe ulaşılmasını sağlar. Bu da performans açısından avantajlıdır, çünkü gereksiz düğümleri ve yolları kontrol etmeden doğrudan hedefe yakın olan yolları keşfeder.
 
 ## Test Senaryoları
-![Test Senaryoları]((https://github.com/niisagulec/MetroSimulation/blob/main/metrosimulation.png))
+![Test Senaryoları](https://github.com/niisagulec/MetroSimulation/raw/main/metrosimulation.png)
 
 
 ## Geliştirme Fikirleri
