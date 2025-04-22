@@ -29,7 +29,7 @@ class MetroAgi:
         istasyon1.komsu_ekle(istasyon2, sure)
         istasyon2.komsu_ekle(istasyon1, sure)
     
-    def en_az_aktarma_bul(self, baslangic_id: str, hedef_id: str) -> Optional[List[Istasyon]]:
+    def en_az_durak_bul(self, baslangic_id: str, hedef_id: str) -> Optional[List[Istasyon]]:
         
         if baslangic_id not in self.istasyonlar or hedef_id not in self.istasyonlar:
             return None  #baslangic ya da hedef istasyon yoksa none döndürür
@@ -127,7 +127,7 @@ if __name__ == "__main__":
     
     # Senaryo 1: AŞTİ'den OSB'ye
     print("\n1. AŞTİ'den OSB'ye:")
-    rota = metro.en_az_aktarma_bul("M1", "K4")
+    rota = metro.en_az_durak_bul("M1", "K4")
     if rota:
         print("En az aktarmalı rota:", " -> ".join(i.ad for i in rota))
     
@@ -138,7 +138,7 @@ if __name__ == "__main__":
     
     # Senaryo 2: Batıkent'ten Keçiören'e
     print("\n2. Batıkent'ten Keçiören'e:")
-    rota = metro.en_az_aktarma_bul("T1", "T4")
+    rota = metro.en_az_durak_bul("T1", "T4")
     if rota:
         print("En az aktarmalı rota:", " -> ".join(i.ad for i in rota))
     
@@ -149,7 +149,7 @@ if __name__ == "__main__":
     
     # Senaryo 3: Keçiören'den AŞTİ'ye
     print("\n3. Keçiören'den AŞTİ'ye:")
-    rota = metro.en_az_aktarma_bul("T4", "M1")
+    rota = metro.en_az_durak_bul("T4", "M1")
     if rota:
         print("En az aktarmalı rota:", " -> ".join(i.ad for i in rota))
     
@@ -160,7 +160,7 @@ if __name__ == "__main__":
         
     #Senaryo 4: Sıhhiye'den Demetevler'e
     print("\n4. Sıhhiye'den Demetevler'e:")
-    rota = metro.en_az_aktarma_bul("M3", "K3")
+    rota = metro.en_az_durak_bul("M3", "K3")
     if rota:
         print("En az aktarmalı rota:", " -> ".join(i.ad for i in rota))
      
